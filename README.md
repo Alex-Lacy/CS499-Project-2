@@ -1,19 +1,11 @@
-Our GradientDescent function can be found here: [GradientDescent](https://github.com/Alex-Lacy/CS499-Project-1/blob/master/GradientDescent.m)
+Our K Nearest Neighbors function can be found here: [KNN](https://github.com/Alex-Lacy/CS499-Project-2/blob/master/KFoldCV.py)
 
-However, it is easily accessed and used through our Driver function, [ROC](https://github.com/Alex-Lacy/CS499-Project-1/blob/master/ROC.m)
+This time, our algorithm and driver code are packaged into the smae file.
 
-Our algorithm can run on a number of datasets at the same time.  In order to run the code on a particular dataset, follow these steps:
+Our algorithm is designed to only work on single sets of binary classification data.  For our results, we used [Stanford's Spam Data](https://web.stanford.edu/~hastie/ElemStatLearn/data.html) for our data. 
 
-* Change the counter at the top to reflect how many datasets you're working with
+In order to use our code effecitvely, please be sure you have the data file in the same directory as the driver function, and be sure to import it in the code.
 
-* With each dataset in its own "if" block, do the following:
-  * import a workspace (only if you have already run the "split" function)
-  * load the dataset
-  * initialize the dataset so that X is the observations, y is the labels, and m is the number of columns (see prebuilt examples)
-  
-* if you wish to use one of the prebuilt datasets:
-  * please be sure you have the dataset in the correct directory (please see [Stanford's data reposity](https://web.stanford.edu/~hastie/ElemStatLearn/data.html) for actual data files)
-  * Un-comment both lines with the splitdata function in [ROC](https://github.com/Alex-Lacy/CS499-Project-1/blob/master/ROC.m)
-  * Make sure the number of datasets counter is set to 3 (there are 3 example datasets)
+We have a large commented section in our code.  The comented section is slighly more efficient, but uses the build-in split functionality from the library we are using.  Don't worry, though.  It returns the same results as the ready-to-use code.
 
 That's it! Run the code and watch the algorithm work!
