@@ -1,6 +1,6 @@
 Our K Nearest Neighbors function can be found here: [KNN](https://github.com/Alex-Lacy/CS499-Project-2/blob/master/KFoldCV.py)
 
-This time, our algorithm and driver code are packaged into the smae file.
+This time, our algorithm and driver code are packaged into the same file.
 
 Our algorithm is designed to only work on single sets of binary classification data.  For our results, we used [Stanford's Spam Data](https://web.stanford.edu/~hastie/ElemStatLearn/data.html) for our data. 
 
